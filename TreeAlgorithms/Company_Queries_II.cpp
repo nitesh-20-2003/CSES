@@ -69,7 +69,7 @@ int main()
     depth[1] = 0;
     dfs(1, 0);
 
-    // build binary lifting table
+    //  precompute ,build binary lifting table
     for (int j = 1; j < LOG; j++)
     {
         for (int i = 1; i <= n; i++)
